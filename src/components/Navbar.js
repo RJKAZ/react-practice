@@ -21,6 +21,15 @@ const Navbar = () => {
         <li>
           <Link to='/addnums'>Add Numbers</Link>
         </li>
+        <li>
+          <Link to='/github'>GitHub User API Call</Link>
+        </li>
+        <li>
+          <Link to='/counter'>Simple Counter</Link>
+        </li>
+        <li>
+          <Link to='/context'>Context Counter - not working</Link>
+        </li>
       </ul>
     </nav>
   );

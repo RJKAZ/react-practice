@@ -121,3 +121,15 @@
   margin: 10px;
   border-radius: 4px;
 }
+
+/* Github Api */
+
+.GithubApp {
+  text-align: center;
+}
+
+/* Counter App */
+
+.counter {
+  text-align: center;
+}

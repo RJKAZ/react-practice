@@ -28,7 +28,16 @@ const Navbar = () => {
           <Link to='/counter'>Simple Counter</Link>
         </li>
         <li>
-          <Link to='/context'>Context Counter - not working</Link>
+          <Link to='/searchHeros'>Search List</Link>
+        </li>
+        <li>
+          <Link to='/toggle'>Toggle</Link>
+        </li>
+        <li>
+          <Link to='/date'>Date</Link>
+        </li>
+        <li>
+          <Link to='/scroll'>Scroll</Link>
         </li>
       </ul>
     </nav>

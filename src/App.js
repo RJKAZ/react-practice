@@ -8,8 +8,11 @@ import Alert from './components/Alert';
 import AddNums from './components/AddNums';
 import GithubUser from './components/GithubUser';
 import Counter from './components/Counter';
+import SearchList from './components/SearchList';
+import Toggle from './components/Toggle';
+import DateValidation from './components/DateValidation';
+import Scroll from './components/Scroll';
 import './App.css';
-import ContextCounter from './components/ContextCounter';
 
 function App() {
   return (
@@ -24,7 +27,10 @@ function App() {
           <Route path='/addnums' component={AddNums} />
           <Route path='/github' component={GithubUser} />
           <Route path='/counter' component={Counter} />
-          <Route path='/context' component={ContextCounter} />
+          <Route path='/searchHeros' component={SearchList} />
+          <Route path='/toggle' component={Toggle} />
+          <Route path='/date' component={DateValidation} />
+          <Route path='/scroll' component={Scroll} />
         </Switch>
       </BrowserRouter>
     </Fragment>

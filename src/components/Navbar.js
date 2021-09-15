@@ -39,6 +39,12 @@ const Navbar = () => {
         <li>
           <Link to='/scroll'>Scroll</Link>
         </li>
+        <li>
+          <Link to='/image'>Image</Link>
+        </li>
+        <li>
+          <Link to='/fizz'>Fizz Buzz</Link>
+        </li>
       </ul>
     </nav>
   );

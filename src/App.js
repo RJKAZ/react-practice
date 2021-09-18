@@ -15,6 +15,7 @@ import Scroll from './components/Scroll';
 import Image from './classComponents/Image';
 import FizzBuzz from './classComponents/FizzBuzz';
 import Parent from './components/Parent';
+import CounterClass from './classComponents/CounterClass'
 import './App.css';
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
           <Route path='/scroll' component={Scroll} />
           <Route path='/image' component={Image} />
           <Route path='/fizz' component={FizzBuzz} />
+          <Route path='/counterClass' component={CounterClass} />
           <Route path='parent' component={Parent} />
         </Switch>
       </BrowserRouter>

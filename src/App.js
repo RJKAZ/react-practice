@@ -17,6 +17,7 @@ import FizzBuzz from './classComponents/FizzBuzz';
 import Parent from './components/Parent';
 import CounterClass from './classComponents/CounterClass'
 import './App.css';
+import DisableButton from './classComponents/DisableButton';
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
           <Route path='/image' component={Image} />
           <Route path='/fizz' component={FizzBuzz} />
           <Route path='/counterClass' component={CounterClass} />
+          <Route path='/disableButton' component={DisableButton}/>
           <Route path='parent' component={Parent} />
         </Switch>
       </BrowserRouter>

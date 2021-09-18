@@ -45,6 +45,12 @@ const Navbar = () => {
         <li>
           <Link to='/fizz'>Fizz Buzz</Link>
         </li>
+        <li>
+          <Link to='/counterClass'>Counter Class</Link>
+        </li>
+        <li>
+          <Link to='/disableButton'>Disabled Button</Link>
+        </li>
       </ul>
     </nav>
   );

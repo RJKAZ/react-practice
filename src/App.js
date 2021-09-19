@@ -19,6 +19,7 @@ import CounterClass from './classComponents/CounterClass'
 import './App.css';
 import DisableButton from './classComponents/DisableButton';
 import ParentState from './classComponents/ParentState';
+import DeleteItem from './classComponents/DeleteItem';
 
 function App() {
   return (
@@ -43,6 +44,7 @@ function App() {
           <Route path='/disableButton' component={DisableButton}/>
           <Route path='parent' component={Parent} />
           <Route path='parentState' component={ParentState} />
+          <Route path='deleteitem' component={DeleteItem} />
         </Switch>
       </BrowserRouter>
     </Fragment>

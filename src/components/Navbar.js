@@ -52,7 +52,10 @@ const Navbar = () => {
           <Link to='/disableButton'>Disabled Button</Link>
         </li>
         <li>
-          <Link to='/parentState'>Parent State</Link>
+          <Link to='/parentState'>Parent State - not working</Link>
+        </li>
+        <li>
+          <Link to='/deleteItem'>Delete Item - not working</Link>
         </li>
       </ul>
     </nav>

@@ -51,6 +51,9 @@ const Navbar = () => {
         <li>
           <Link to='/disableButton'>Disabled Button</Link>
         </li>
+        <li>
+          <Link to='/parentState'>Parent State</Link>
+        </li>
       </ul>
     </nav>
   );

@@ -1,4 +1,4 @@
-import { Fragment } from 'react/cjs/react.production.min';
+import { Fragment, useEffect } from 'react/cjs/react.production.min';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Home from './components/Home';
 import Navbar from './components/Navbar';
@@ -15,11 +15,14 @@ import Scroll from './components/Scroll';
 import Image from './classComponents/Image';
 import FizzBuzz from './classComponents/FizzBuzz';
 import Parent from './components/Parent';
-import CounterClass from './classComponents/CounterClass'
-import './App.css';
+import CounterClass from './classComponents/CounterClass';
 import DisableButton from './classComponents/DisableButton';
 import ParentState from './classComponents/ParentState';
 import DeleteItem from './classComponents/DeleteItem';
+
+import 'materialize-css/dist/css/materialize.min.css';
+
+import './App.css';
 
 function App() {
   return (
@@ -41,7 +44,7 @@ function App() {
           <Route path='/image' component={Image} />
           <Route path='/fizz' component={FizzBuzz} />
           <Route path='/counterClass' component={CounterClass} />
-          <Route path='/disableButton' component={DisableButton}/>
+          <Route path='/disableButton' component={DisableButton} />
           <Route path='parent' component={Parent} />
           <Route path='parentState' component={ParentState} />
           <Route path='deleteitem' component={DeleteItem} />

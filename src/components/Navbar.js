@@ -57,6 +57,9 @@ const Navbar = () => {
         <li>
           <Link to='/deleteItem'>Delete Item - not working</Link>
         </li>
+        <li>
+          <Link to='/svg'>Svg image - not working</Link>
+        </li>
       </ul>
     </nav>
   );

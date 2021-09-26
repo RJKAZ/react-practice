@@ -19,8 +19,9 @@ import CounterClass from './classComponents/CounterClass';
 import DisableButton from './classComponents/DisableButton';
 import ParentState from './classComponents/ParentState';
 import DeleteItem from './classComponents/DeleteItem';
+import Svg from './components/Svg';
 
-import 'materialize-css/dist/css/materialize.min.css';
+//import 'materialize-css/dist/css/materialize.min.css';
 
 import './App.css';
 
@@ -48,6 +49,7 @@ function App() {
           <Route path='parent' component={Parent} />
           <Route path='parentState' component={ParentState} />
           <Route path='deleteitem' component={DeleteItem} />
+          <Route path='svg' component={Svg}/>
         </Switch>
       </BrowserRouter>
     </Fragment>

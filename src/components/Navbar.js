@@ -60,6 +60,9 @@ const Navbar = () => {
         <li>
           <Link to='/svg'>Svg image - not working</Link>
         </li>
+        <li>
+          <Link to='/simplestore'>Simple Store</Link>
+        </li>
       </ul>
     </nav>
   );

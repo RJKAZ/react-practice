@@ -21,6 +21,7 @@ import ParentState from './classComponents/ParentState';
 import DeleteItem from './classComponents/DeleteItem';
 import Svg from './components/Svg';
 import SimpleStore from './reduxComponents/SimpleStore';
+import Game from './components/Game';
 
 //import 'materialize-css/dist/css/materialize.min.css';
 
@@ -52,6 +53,7 @@ function App() {
           <Route path='deleteitem' component={DeleteItem} />
           <Route path='svg' component={Svg} />
           <Route path='/simplestore' component={SimpleStore} />
+          <Route path='/game' component={Game} />
         </Switch>
       </BrowserRouter>
     </Fragment>

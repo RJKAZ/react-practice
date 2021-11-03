@@ -63,6 +63,9 @@ const Navbar = () => {
         <li>
           <Link to='/simplestore'>Simple Store</Link>
         </li>
+        <li>
+          <Link to='/game'>Tic Tac Toe</Link>
+        </li>
       </ul>
     </nav>
   );
